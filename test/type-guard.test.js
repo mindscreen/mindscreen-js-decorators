@@ -168,7 +168,6 @@ describe('@TypeGuard test', () => {
         expect(function(){ testClass.testClass(a); }).toThrowError(TypeError);
         expect(testClass.testClass(b)).toBe(true);
         expect(testClass.testClass(c)).toBe(true);
-        expect(testClass.testClass(a)).toBe(true);
     });
 
     test('Test object', () => {

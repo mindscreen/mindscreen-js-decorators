@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mindscreen/mindscreen-js-decorators.svg?branch=master)](https://travis-ci.org/mindscreen/mindscreen-js-decorators)
+
 # mindscreen JavaScript decorators
 A package to gather JS decorators from projects at [mindscreen](https://mindscreen.de).
 
