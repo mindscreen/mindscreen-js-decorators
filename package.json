@@ -4,20 +4,23 @@
   "description": "JavaScript decorators originated in mindscreen projects",
   "repository": "github:mindscreen/mindscreen-js-decorators",
   "main": "src/decorators.js",
-  "types": "src/decorators..d.ts",
+  "types": "src/decorators.d.ts",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "eslint": "eslint src/**/*.js"
   },
   "author": "mindscreen",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
     "babel-jest": "^22.1.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.17.0",
     "jest": "^22.1.4"
   }
 }

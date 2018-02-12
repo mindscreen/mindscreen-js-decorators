@@ -1,4 +1,6 @@
+[![npm version](https://badge.fury.io/js/mindscreen-decorators.svg)](https://www.npmjs.com/package/mindscreen-decorators)
 [![Build Status](https://travis-ci.org/mindscreen/mindscreen-js-decorators.svg?branch=master)](https://travis-ci.org/mindscreen/mindscreen-js-decorators)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5551f12f9274eef19b54/maintainability)](https://codeclimate.com/github/mindscreen/mindscreen-js-decorators/maintainability)
 
 # mindscreen JavaScript decorators
 A package to gather JS decorators from projects at [mindscreen](https://mindscreen.de).
