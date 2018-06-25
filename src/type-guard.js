@@ -46,8 +46,11 @@ function TypeGuard(options) {
             descriptor = Object.getOwnPropertyDescriptor(target, name);
         }
         const fn = descriptor[descriptor.set !== undefined ? 'set' : 'value'];
+        let argNames = getArguments(fn);
+        if (argNames === null) {
+            return descriptor;
+        }
         descriptor[descriptor.set !== undefined ? 'set' : 'value'] = function (...args) {
-            let argNames = getArguments(fn);
             for (let i = 0; options !== undefined && i < argNames.length; i++) {
                 if (options[argNames[i]] === undefined) {
                     continue;
