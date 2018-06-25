@@ -1,6 +1,6 @@
 {
   "name": "mindscreen-decorators",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript decorators originated in mindscreen projects",
   "repository": "github:mindscreen/mindscreen-js-decorators",
   "main": "src/decorators.js",
